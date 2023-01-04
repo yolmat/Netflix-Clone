@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Netflix Clone</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!--navbar-->
 
     <nav class="navbar">
-        <img class="logo" src="./assets/logo.png" alt="logo">
-        <div class="join-box">
-            <p class="join-msg">Séries e filmes ilimitados</p>
-            <button class="btn join-btn">Assinar Agora</button>
-            <button class="btn">Entrar</button>
-        </div>
+      <img class="logo" src="./assets/logo.png" alt="logo" />
+      <div class="join-box">
+        <p class="join-msg">Séries e filmes ilimitados</p>
+        <button class="btn join-btn">Assinar Agora</button>
+        <button class="btn">Entrar</button>
+      </div>
     </nav>
 
     <!--main Section-->
 
     <header class="main">
-        <h1 class="heading">Filmes</h1>
-        <p class="info">Filmes para assistir com toda a familia</p>
+      <h1 class="heading">Filmes</h1>
+      <p class="info">Filmes para assistir com toda a familia</p>
 
-        <!--movie list-->
+      <!--movie list-->
 
-        <div class="movie-list">
-            <h1 class="movie-category">Populares no Netflix</h1>
+      <div class="movie-list">
+        <button class="pre-btn btn-movie">
+          <img src="./assets/back.png" alt="prev button" />
+        </button>
 
-            <div class="movie-container">
-                <div class="movie">
-                    <img src="./assets/poster-1.png" alt="poster">
-                    <p class="movie-title">The Witcher</p>
-                </div>
-            </div>
+        <h1 class="movie-category">Populares no Netflix</h1>
+
+        <div class="movie-container">
+          <div class="movie">
+            <img src="./assets/poster-1.png" alt="poster" />
+            <p class="movie-title">The Witcher</p>
+          </div>
         </div>
+
+        <button class="next-btn btn-movie">
+          <img src="./assets/next.png" alt="next button" />
+        </button>
+      </div>
     </header>
-</body>
+  </body>
 </html>
