@@ -94,6 +94,7 @@ body {
     /*overflow-x: auto;
     overflow-y: hidden;*/
     scroll-behavior: smooth;
+    display: flex;
 }
 
 .movie-category::-webkit-scrollbar{
