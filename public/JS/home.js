@@ -65,6 +65,11 @@ const makeCards = (id, data) => {
         <p class="movie-title">${item.title}</p>
     </div>
 
-    `;
+    `
+    if(i == data.length -1) {
+        setTimeout(() => {
+            setupScrooling()
+        }, 100)
+    }
   });
 };
